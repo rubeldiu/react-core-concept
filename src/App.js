@@ -1,7 +1,8 @@
 
 import './App.css';
 
-import Users from './Users';
+import UserInfo from './User/UserInfo';
+
 
 
 
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-       <Users/>
+      <UserInfo/>
     </div>
   );
 }
