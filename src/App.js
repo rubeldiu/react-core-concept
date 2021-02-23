@@ -1,17 +1,13 @@
 
 import './App.css';
 
-import UserInfo from './User/UserInfo';
-
-
-
-
+import Tabs from './Tabs/Tabs';
 function App() {
 
 
   return (
     <div className="App">
-      <UserInfo/>
+      <Tabs/>
     </div>
   );
 }
