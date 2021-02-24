@@ -1,13 +1,13 @@
 
 import './App.css';
-import Slider from './Slider/Slider';
+import Grocery from './FormGrocary/Grocery';
+
 
 function App() {
-
-
+ 
   return (
     <div className="App">
-      <Slider/>
+      <Grocery/>
     </div>
   );
 }
